@@ -1,0 +1,295 @@
+body{
+    background-image: url("../Img/fundo.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+.cabecalho{
+    background-image:linear-gradient( #180602 25%, rgba(100, 53, 15, 0.808));
+}
+header .logo{
+    display:flex;
+    justify-content: center;
+}
+header .boxtitulo{
+    line-height: 25px;
+    display: flex;
+    justify-content: center;
+}
+header .boxtitulo h1{
+    font-size: 40px;
+    color:white;
+    font-style: italic;
+    text-shadow: -4px -3px 2px #7B4111;
+    font-family:'Eras Bold ITC','arial';
+    font-weight: bold;
+}
+header .boxtitulo p{
+    font-family:'Tahoma Bold','arial';
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.headerb img{
+    width: 35px;
+    height: 35px;
+    margin-right: 4px;
+}
+
+.headerb p{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.boxtitulo img{
+    width: 25px;
+    height: 25px;
+}
+a{
+    text-decoration: none;
+}
+header .user{
+    height: 100%;
+    display: flex;
+    justify-content:center;
+}
+header .user p{
+    color:white;
+    font-size: 15px;
+}
+header .user img{
+    width: 100px;
+    height: 100px;
+}
+.headerb-itens{
+    border: solid black 4px;
+    background-color: #7B4111;
+    font-family:'Tahoma Bold','arial';
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.pesquisar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pesquisar input{
+    width: 100%;
+}
+.pesquisar{
+    margin-top: 10px;
+    margin-bottom:10px;
+    
+}
+.pesquisar input{
+    height: 35px;
+    padding-left: 15px;
+    border:solid 4px black;
+    border-radius: 8px;
+    outline-style: none;
+}
+.pesquisardiv{
+    background-color:rgba(97, 60, 30, 0.596);
+    height: 70px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.pesquisar button{
+    width: 100px;
+    height: 35px;
+    border:solid 4px black;
+    border-radius: 8px;
+    font-family:'Tahoma Bold','arial';
+    font-size: 16px;
+}
+.divcarrossel{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-image:linear-gradient( rgba(97, 60, 30, 0.596),#24110d8f 80%);
+}
+.carrosselTamanho{
+    display:fixed;
+    width: 90%;
+    padding-bottom:3%;
+    padding-top:2%;
+}
+
+.carrossel img{
+    justify-content:center;
+    border-radius:25px;
+    border:8px solid #fff; 
+}
+.pesquisar button{
+    width: 100px;
+    height: 35px;
+    border:solid 4px black;
+    border-radius: 8px;
+    background-color: #ffffff;
+    font-family:'Tahoma Bold','arial';
+    font-size: 16px;
+    transition: 0.5s;
+}
+.pesquisar button:hover{
+    width: 100px;
+    height: 35px;
+    border:solid 4px black;
+    background-color: rgb(207, 207, 207);
+    border-radius: 8px;
+    font-family:'Tahoma Bold','arial';
+    font-size: 16px;
+    transition: 0.5s;
+}
+.headerb-itens{
+    border: solid black 4px;
+    background-color: #7B4111;
+    font-family:'Tahoma Bold','arial';
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.headerb-itens:hover{
+    border: solid black 4px;
+    background-color: #b4601c;
+    font-family:'Tahoma Bold','arial';
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.produtos-itens{
+    border: solid black 4px;
+    background-color: #7B4111;
+    font-family:'Tahoma Bold','arial';
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.produtos-itens:hover{
+    border: solid black 4px;
+    background-color: #b4601c;
+    font-family:'Tahoma Bold','arial';
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.rodape-itens{
+    border: solid black 4px;
+    background-color: #7B4111;
+    font-family:'Tahoma Bold','arial';
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.rodape-itens:hover{
+    border: solid black 4px;
+    background-color: #b4601c;
+    font-family:'Tahoma Bold','arial';
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.tituloProduto{
+    text-align:center;
+    font-family:'Eras Bold ITC';
+    font-weight:bold;
+    font-size:30px;
+    color:#351c03;
+}
+p{
+    color:white;
+}
+
+.card{
+    margin-top:15%;
+    margin-bottom:8%;
+}
+.produtos{
+    display:flex;
+    justify-content:center;
+    background-color: #fff;
+}
+.produtos img{
+    width: 70%;
+    border:2px solid #351c03; 
+    border-radius:10px;
+}
+.descricao{
+    text-align:left;
+    font-family:'Century Schoolbook';
+    font-size:25px;
+    color:#351c03;
+}
+
+.preco{
+    text-align:center;
+    font-size:40px;
+    font-weight:bold;
+    color:#351c03;
+    margin-bottom:15px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.botaoAddCarrinho{
+    display:flex;
+    justify-content:center;
+
+    width: 250px;
+    height: 50px;
+    border-radius:5px;
+    background-color:#351c03;
+    padding-top:15px;
+
+    color:#fff;
+    font-family:'Eras Bold ITC';
+    font-weight:bold;
+    font-size:22px;
+}
+
+.botaoAddCarrinho:hover{
+    color:#fff;
+    background-color:#ad5b0a;
+}
+.Destaque{
+    text-align:center;
+    font-family:'Eras Bold ITC';
+    font-weight:bold;
+    font-size:30px;
+    color:#351c03;
+}
+
+.descricaoDestaque{
+    text-align:justify;
+    font-family:'Eras Bold ITC';
+    font-size:25px;
+    color:#351c03;
+}
+.divprodutos{
+    display: flex;
+    justify-content: center;
+    margin-left: 5%;
+}
+body::-webkit-scrollbar {
+    width: 10px;
+    background-color: #351c03;
+}
+   
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+   
+body::-webkit-scrollbar-thumb {
+    background-color: #7B4111;
+    border-radius: 10px;
+}
